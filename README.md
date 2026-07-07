@@ -1,6 +1,6 @@
 # YapChat Privacy Policy
 
-**Last updated: 5 July 2026**
+**Last updated: 7 July 2026**
 
 YapChat ("the app") is built and operated by James Woodhall-Black ("we", "I"). This policy explains what data the app handles, where it goes, and your choices. The short version: **your chats live on your device, there are no accounts, and we never sell data.**
 
@@ -16,7 +16,8 @@ YapChat ("the app") is built and operated by James Woodhall-Black ("we", "I"). T
 
 - **Anonymous usage limits.** The app generates a random device identifier (not linked to your name, phone number, or Apple ID). Our relay server keeps a count of AI requests and their approximate cost against this identifier to enforce fair-usage limits. These records are deleted automatically after 45 days.
 - **Purchases.** Subscriptions are handled by Apple and our subscription partner RevenueCat. RevenueCat receives purchase receipt data and an anonymous identifier so your subscription unlocks correctly. We never see your payment details — Apple handles all billing.
-- **Anonymous analytics.** We may collect anonymous, aggregated usage events (e.g. "a report was generated") to understand which features are used. These contain no message content and no identity.
+- **Product analytics (Amplitude).** We use Amplitude, a third-party analytics provider, to understand how the app is used — for example which onboarding steps people complete, which features they use, and whether AI requests succeed or fail. These events contain **no message content**. They are tied to the same random device identifier described above and, if you subscribe, to the anonymous subscription identifier from RevenueCat, so we can measure conversion and diagnose problems. They are never linked to your name, email, or phone number. Amplitude processes this data on our behalf under their terms.
+- **Crash and error diagnostics.** We may use a crash-reporting service to record anonymous technical details when the app crashes or an operation fails, so we can fix bugs. These reports contain no message content.
 
 ## What we never do
 
@@ -49,4 +50,4 @@ If we change this policy we will update this page and the "last updated" date. M
 ## Contact
 
 **James Woodhall-Black**
-Email: yapchatmobileapp@gmail.com
+Email:  yapchatmobileapp@gmail.com
