@@ -2,82 +2,79 @@
 
 **Last updated: 22 July 2026**
 
-YapChat ("the app") is built and operated by James Woodhall-Black ("we", "I"). This policy explains what data the app handles, where it goes, and your choices. The short version: **your chats live on your device, there are no accounts, and we never sell data.**
+YapChat ("the app") is built and operated by James Woodhall-Black ("we", "us"). This policy explains what data the app handles and where it goes.
 
-## Third-party AI processing — in short
+**The short version:** your chats are stored on your device, there are no accounts, and we never sell data.
 
-YapChat's analysis is performed by **Anthropic PBC** ("Anthropic"), the provider of the Claude AI models, acting as our data processor.
+## 1. What stays on your device
 
-| Question | Answer |
+When you import a chat, the messages are stored on your iPhone. We do not keep copies of your conversations.
+
+Screenshots are read using Apple's on-device text recognition. The images themselves are never uploaded.
+
+## 2. The AI analysis
+
+Reports, AI chat replies and Memory are produced by **Anthropic PBC** ("Anthropic"), the provider of the Claude AI models, acting on our behalf.
+
+| | |
 |---|---|
-| **What is sent?** | The **text of the messages** in the chat you selected, the **timestamps** of those messages, and the **sender names exactly as they appear in your exported file**. Nothing else. |
-| **Who is it sent to?** | Anthropic PBC, via our own relay server (Cloudflare Workers). No other AI provider receives your data. |
-| **How is it collected?** | Only from a chat export or screenshots **you** actively import, and only when **you** trigger an AI feature (a report, an AI chat message, or building Memory). |
-| **When is permission asked?** | Before anything is sent. The app shows an in-app consent screen after your first import that names Anthropic and lists exactly what will be sent. **If you do not agree, no message data leaves your device and the imported chat is deleted.** |
-| **What is it used for?** | Solely to generate the report, AI chat reply, or Memory dossier you asked for. |
-| **Is it used to train AI?** | **No.** Under Anthropic's commercial terms, data submitted through their API is not used to train their models. |
-| **Retention by Anthropic** | Anthropic may retain inputs and outputs for a limited period for trust-and-safety purposes under their commercial terms, after which they are deleted. |
-| **Protection at Anthropic** | We use the Anthropic API under Anthropic's Commercial Terms of Service and their published privacy and data-handling terms, which govern how they may use and retain this data. Details: https://www.anthropic.com/legal/commercial-terms and https://privacy.anthropic.com |
+| **What is sent** | The text of the messages in the chat you selected, their timestamps, and the sender names as they appear in your export. Nothing else. |
+| **Who receives it** | Anthropic, via our own server. No other AI provider receives your data. |
+| **When** | Only from a chat you have imported, and only when you use an AI feature. |
+| **Your permission** | Asked before anything is sent. After your first import the app shows a consent screen naming Anthropic and listing exactly what will be sent. If you do not agree, nothing is sent and the imported chat is deleted. |
+| **What it is used for** | Only to produce the report, reply or Memory you asked for. |
+| **AI training** | Not used to train AI models, under Anthropic's commercial terms. |
+| **Retention** | Anthropic may hold inputs and outputs briefly for trust-and-safety purposes under their terms, then delete them. Our server does not store your messages. |
 
-**What is never sent to Anthropic or anyone else:** your name, email address, phone number, contacts, photos, or location. Screenshots are read using Apple's on-device text recognition and the images themselves are never uploaded. No account is created.
+**Never sent to anyone:** your name, email address, phone number, contacts, photos or location. No account is created.
 
-## What YapChat does with your chats
+## 3. What else we collect
 
-- **Imported chats stay on your device.** When you import a WhatsApp export or screenshots, the messages are parsed and stored locally on your iPhone. We do not run servers that store your conversations.
-- **Screenshot text recognition happens on your device.** Reading text out of screenshots uses Apple's on-device recognition — the images are not uploaded anywhere.
-- **AI features send transcript excerpts for processing.** When you generate a report or use the AI chat, relevant parts of the selected conversation are sent over an encrypted connection, through our relay server, to Anthropic (the provider of the Claude AI model) to produce the response. This happens only when you actively use an AI feature, and only for the conversation you chose.
-  - Anthropic processes this data to generate the response and does **not** use it to train its models. It may be retained briefly by Anthropic for trust-and-safety purposes in line with their commercial terms, then deleted.
-  - Our relay server does not store your messages. It passes the request through and records only anonymous usage counts (see below).
+- **Usage limits.** The app creates a random device identifier that is not linked to your name, phone number or Apple ID. We count AI requests against it to enforce fair-usage limits. These records are deleted after 45 days.
+- **Purchases.** Apple handles all billing; we never see your payment details. Our subscription provider receives receipt data and an anonymous identifier so your purchases unlock correctly.
+- **Product analytics.** Anonymous events about which features are used and whether requests succeed — for example that a report was generated, never its content. Tied to the same random identifier, never to your name, email or phone number.
+- **Diagnostics.** Anonymous technical details when something crashes or fails, so we can fix it. These contain no message content.
 
-## Data we do collect
+## 4. Who we share data with
 
-- **Anonymous usage limits.** The app generates a random device identifier (not linked to your name, phone number, or Apple ID). Our relay server keeps a count of AI requests and their approximate cost against this identifier to enforce fair-usage limits. These records are deleted automatically after 45 days.
-- **Purchases.** Subscriptions are handled by Apple and our subscription partner RevenueCat. RevenueCat receives purchase receipt data and an anonymous identifier so your subscription unlocks correctly. We never see your payment details — Apple handles all billing.
-- **Product analytics (Amplitude).** We use Amplitude, a third-party analytics provider, to understand how the app is used — for example which onboarding steps people complete, which features they use, and whether AI requests succeed or fail. These events contain **no message content**. They are tied to the same random device identifier described above and, if you subscribe, to the anonymous subscription identifier from RevenueCat, so we can measure conversion and diagnose problems. They are never linked to your name, email, or phone number. Amplitude processes this data on our behalf under their terms.
-- **Crash and error diagnostics.** We may use a crash-reporting service to record anonymous technical details when the app crashes or an operation fails, so we can fix bugs. These reports contain no message content.
+These are the only companies that receive any data, and each acts on our behalf. We use each under their published terms of service and data processing terms, which set out their obligations to handle data securely and use it only to provide their service to us. None of them may sell your data or use it for advertising.
 
-## Every third party we share data with, and their protection
+| Provider | What they receive | Why |
+|---|---|---|
+| **Anthropic PBC** | Message text, timestamps and sender names from the chat you chose | Produces your report, AI replies and Memory · [terms](https://www.anthropic.com/legal/commercial-terms) · [privacy](https://privacy.anthropic.com) |
+| **Cloudflare, Inc.** | The request in transit, plus the anonymous device identifier | Hosts the server that passes AI requests through and applies usage limits · [privacy](https://www.cloudflare.com/privacypolicy/) |
+| **RevenueCat, Inc.** | Receipt data and an anonymous subscriber identifier. No message content | Unlocks your subscription and purchases · [privacy](https://www.revenuecat.com/privacy/) |
+| **Amplitude, Inc.** | Anonymous feature events and country/city-level location derived from IP. No message content | Shows us which parts of the app work · [privacy](https://amplitude.com/privacy) |
 
-We use four service providers. We use each of them under their published terms of service and data processing terms, linked below, which set out their obligations to handle data securely and to process it only for the purpose of providing their service to us. We do not permit any of them to sell your data or use it for advertising, and we share data with no one else.
+## 5. What we never do
 
-| Provider | What they receive | Why | Their terms |
-|---|---|---|---|
-| **Anthropic PBC** | Message text, timestamps and sender names from the chat you chose | To generate your report, AI replies and Memory | https://www.anthropic.com/legal/commercial-terms · https://privacy.anthropic.com |
-| **Cloudflare, Inc.** | The same request in transit, plus the anonymous device identifier and usage counts | Our relay server, which holds the AI key and enforces fair-usage limits. It does not store your messages | https://www.cloudflare.com/privacypolicy/ |
-| **RevenueCat, Inc.** | Purchase receipt data and an anonymous subscriber identifier. **No message content** | To unlock your subscription and purchases correctly | https://www.revenuecat.com/privacy/ |
-| **Amplitude, Inc.** | Feature and funnel events tied to the anonymous device identifier, and approximate location derived from IP (country/city level). **No message content** | To understand which parts of the app work and diagnose failures | https://amplitude.com/privacy |
-
-Apple processes all payments; we never receive your payment details.
-
-## What we never do
-
-- We never sell or share your data with advertisers.
-- We never read, store, or transmit your conversations except as described above (your explicit use of an AI feature).
+- We never sell your data or share it with advertisers.
 - We show no third-party ads.
-- We do not require an account, email address, or phone number.
+- We never transmit your conversations except as described in section 2.
+- We do not ask for an account, email address or phone number.
 
-## The other people in your chats
+## 6. Other people in your chats
 
-Chats you import naturally include messages written by other people. That content is processed only as described above and stays under your control on your device. Please be thoughtful about the conversations you import and share — share cards you create are shared entirely at your discretion.
+Chats you import contain messages written by other people. That content is handled exactly as described above and stays under your control. Share cards you create are shared entirely at your discretion.
 
-## Data deletion
+## 7. Keeping and deleting data
 
-- **On-device data:** delete a person from your roster, or use **Settings → Delete all data** (which also removes your iCloud backup), or delete the app — the imported chats, reports, AI conversations and Memory go with it.
-- **Server-side usage records:** these expire automatically after 45 days. To request earlier deletion, email us (address below) — include the "device ID" shown in the app's settings so we can find the anonymous record.
+- **On your device:** delete a person, use **Settings → Delete all data**, or delete the app. Your chats, reports, AI conversations and Memory go with it, including any iCloud backup you made.
+- **Our records:** the anonymous usage records described in section 3 expire automatically after 45 days. To request earlier deletion, email us and we will explain what we need to locate the record.
 
-## Children
+## 8. Children
 
-YapChat is not directed at children and is rated for users 17+.
+YapChat is not directed at children and is rated 17+.
 
-## Your rights (UK/EU)
+## 9. Your rights (UK/EU)
 
-If you are in the UK or EU, you have the right to access, correct, or erase personal data we hold, and to complain to your supervisory authority (in the UK, the ICO). Given the design above, the only personal data we hold server-side is the anonymous usage record. Contact us to exercise any right.
+If you are in the UK or EU you have the right to access, correct or erase personal data we hold, and to complain to your supervisory authority (in the UK, the ICO). The only data we hold about you is the anonymous usage record in section 3. Contact us to exercise any right.
 
-## Changes
+## 10. Changes
 
-If we change this policy we will update this page and the "last updated" date. Material changes will be flagged in the app.
+If we change this policy we will update this page and the date above. Material changes will be flagged in the app.
 
-## Contact
+## 11. Contact
 
 **James Woodhall-Black**
 Email: YapChatMobileApp@gmail.com
