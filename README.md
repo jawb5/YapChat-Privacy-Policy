@@ -55,12 +55,13 @@ These are the only companies that receive any data, and each acts on our behalf.
 
 ## 6. Other people in your chats
 
-Chats you import contain messages written by other people. That content is handled exactly as described above and stays under your control. Share cards you create are shared entirely at your discretion.
+Chats you import contain messages written by other people. That content is handled exactly as described above and stays under your control. You are responsible for having the right to import and analyse a conversation, as set out in our Terms. Share cards you create are shared entirely at your discretion.
 
 ## 7. Keeping and deleting data
 
 - **On your device:** delete a person, use **Settings → Delete all data**, or delete the app. Your chats, reports, AI conversations and Memory go with it, including any iCloud backup you made.
-- **Our records:** the anonymous usage records described in section 3 expire automatically after 45 days. To request earlier deletion, email us and we will explain what we need to locate the record.
+- **Our records:** we do not store your conversations, so the only record we hold is the anonymous usage count in section 3. It expires automatically after 45 days, and you can email us to have it removed sooner.
+- **Copies held by Anthropic:** the brief trust-and-safety retention described in section 2 expires automatically under Anthropic's own terms. It is not something we are able to delete on request.
 
 ## 8. Children
 
