@@ -17,7 +17,7 @@ YapChat's analysis is performed by **Anthropic PBC** ("Anthropic"), the provider
 | **What is it used for?** | Solely to generate the report, AI chat reply, or Memory dossier you asked for. |
 | **Is it used to train AI?** | **No.** Under Anthropic's commercial terms, data submitted through their API is not used to train their models. |
 | **Retention by Anthropic** | Anthropic may retain inputs and outputs for a limited period for trust-and-safety purposes under their commercial terms, after which they are deleted. |
-| **Equivalent protection** | Anthropic is contractually bound by their Commercial Terms of Service and Data Processing Addendum to protect this data to a standard equivalent to that described in this policy, to process it only on our instructions, and not to sell it or use it for advertising. Details: https://www.anthropic.com/legal/commercial-terms and https://privacy.anthropic.com |
+| **Protection at Anthropic** | We use the Anthropic API under Anthropic's Commercial Terms of Service and their published privacy and data-handling terms, which govern how they may use and retain this data. Details: https://www.anthropic.com/legal/commercial-terms and https://privacy.anthropic.com |
 
 **What is never sent to Anthropic or anyone else:** your name, email address, phone number, contacts, photos, or location. Screenshots are read using Apple's on-device text recognition and the images themselves are never uploaded. No account is created.
 
@@ -38,9 +38,9 @@ YapChat's analysis is performed by **Anthropic PBC** ("Anthropic"), the provider
 
 ## Every third party we share data with, and their protection
 
-We use four processors. Each is contractually bound, under the agreements linked below, to process this data **only on our instructions**, to protect it to a standard **equivalent to that described in this policy**, and never to sell it or use it for advertising. We share data with no one else.
+We use four service providers. We use each of them under their published terms of service and data processing terms, linked below, which set out their obligations to handle data securely and to process it only for the purpose of providing their service to us. We do not permit any of them to sell your data or use it for advertising, and we share data with no one else.
 
-| Processor | What they receive | Why | Their terms |
+| Provider | What they receive | Why | Their terms |
 |---|---|---|---|
 | **Anthropic PBC** | Message text, timestamps and sender names from the chat you chose | To generate your report, AI replies and Memory | https://www.anthropic.com/legal/commercial-terms · https://privacy.anthropic.com |
 | **Cloudflare, Inc.** | The same request in transit, plus the anonymous device identifier and usage counts | Our relay server, which holds the AI key and enforces fair-usage limits. It does not store your messages | https://www.cloudflare.com/privacypolicy/ |
