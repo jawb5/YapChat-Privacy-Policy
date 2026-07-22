@@ -36,6 +36,19 @@ YapChat's analysis is performed by **Anthropic PBC** ("Anthropic"), the provider
 - **Product analytics (Amplitude).** We use Amplitude, a third-party analytics provider, to understand how the app is used — for example which onboarding steps people complete, which features they use, and whether AI requests succeed or fail. These events contain **no message content**. They are tied to the same random device identifier described above and, if you subscribe, to the anonymous subscription identifier from RevenueCat, so we can measure conversion and diagnose problems. They are never linked to your name, email, or phone number. Amplitude processes this data on our behalf under their terms.
 - **Crash and error diagnostics.** We may use a crash-reporting service to record anonymous technical details when the app crashes or an operation fails, so we can fix bugs. These reports contain no message content.
 
+## Every third party we share data with, and their protection
+
+We use four processors. Each is contractually bound, under the agreements linked below, to process this data **only on our instructions**, to protect it to a standard **equivalent to that described in this policy**, and never to sell it or use it for advertising. We share data with no one else.
+
+| Processor | What they receive | Why | Their terms |
+|---|---|---|---|
+| **Anthropic PBC** | Message text, timestamps and sender names from the chat you chose | To generate your report, AI replies and Memory | https://www.anthropic.com/legal/commercial-terms · https://privacy.anthropic.com |
+| **Cloudflare, Inc.** | The same request in transit, plus the anonymous device identifier and usage counts | Our relay server, which holds the AI key and enforces fair-usage limits. It does not store your messages | https://www.cloudflare.com/privacypolicy/ |
+| **RevenueCat, Inc.** | Purchase receipt data and an anonymous subscriber identifier. **No message content** | To unlock your subscription and purchases correctly | https://www.revenuecat.com/privacy/ |
+| **Amplitude, Inc.** | Feature and funnel events tied to the anonymous device identifier, and approximate location derived from IP (country/city level). **No message content** | To understand which parts of the app work and diagnose failures | https://amplitude.com/privacy |
+
+Apple processes all payments; we never receive your payment details.
+
 ## What we never do
 
 - We never sell or share your data with advertisers.
