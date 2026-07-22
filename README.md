@@ -68,4 +68,4 @@ If we change this policy we will update this page and the "last updated" date. M
 ## Contact
 
 **James Woodhall-Black**
-Email: yapchat.help@gmail.com
+Email: YapChatMobileApp@gmail.com
