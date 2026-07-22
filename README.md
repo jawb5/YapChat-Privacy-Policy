@@ -23,14 +23,14 @@ Reports, AI chat replies and Memory are produced by **Anthropic PBC** ("Anthropi
 | **When** | Only from a chat you have imported, and only when you use an AI feature. |
 | **Your permission** | Asked before anything is sent. After your first import the app shows a consent screen naming Anthropic and listing exactly what will be sent. If you do not agree, nothing is sent and the imported chat is deleted. |
 | **What it is used for** | Only to produce the report, reply or Memory you asked for. |
-| **AI training** | Not used to train AI models, under Anthropic's commercial terms. |
-| **Retention** | Anthropic may hold inputs and outputs briefly for trust-and-safety purposes under their terms, then delete them. Our server does not store your messages. |
+| **AI training** | Not used to train AI models. Anthropic's Commercial Terms, which govern our use of their API, state that Anthropic may not train models on Customer Content. |
+| **Retention** | We do not store your messages on our server. Anthropic's handling and retention of API data is governed by their [Commercial Terms](https://www.anthropic.com/legal/commercial-terms), the Data Processing Addendum incorporated into them, and their [commercial data retention policy](https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data). |
 
 **Never sent to anyone:** your name, email address, phone number, contacts, photos or location. No account is created.
 
 ## 3. What else we collect
 
-- **Usage limits.** The app creates a random device identifier that is not linked to your name, phone number or Apple ID. We count AI requests against it to enforce fair-usage limits. These records are deleted after 45 days.
+- **Usage limits.** The app creates a random device identifier that is not linked to your name, phone number or Apple ID. We count AI requests against it to enforce fair-usage limits, and keep that count only for as long as we need it to do so.
 - **Purchases.** Apple handles all billing; we never see your payment details. Our subscription provider receives receipt data and an anonymous identifier so your purchases unlock correctly.
 - **Product analytics.** Anonymous events about which features are used and whether requests succeed — for example that a report was generated, never its content. Tied to the same random identifier, never to your name, email or phone number.
 - **Diagnostics.** Anonymous technical details when something crashes or fails, so we can fix it. These contain no message content.
@@ -41,7 +41,7 @@ These are the only companies that receive any data, and each acts on our behalf.
 
 | Provider | What they receive | Why |
 |---|---|---|
-| **Anthropic PBC** | Message text, timestamps and sender names from the chat you chose | Produces your report, AI replies and Memory · [terms](https://www.anthropic.com/legal/commercial-terms) · [privacy](https://privacy.anthropic.com) |
+| **Anthropic PBC** | Message text, timestamps and sender names from the chat you chose | Produces your report, AI replies and Memory · [commercial terms](https://www.anthropic.com/legal/commercial-terms) · [usage policy](https://www.anthropic.com/legal/aup) |
 | **Cloudflare, Inc.** | The request in transit, plus the anonymous device identifier | Hosts the server that passes AI requests through and applies usage limits · [privacy](https://www.cloudflare.com/privacypolicy/) |
 | **RevenueCat, Inc.** | Receipt data and an anonymous subscriber identifier. No message content | Unlocks your subscription and purchases · [privacy](https://www.revenuecat.com/privacy/) |
 | **Amplitude, Inc.** | Anonymous feature events and country/city-level location derived from IP. No message content | Shows us which parts of the app work · [privacy](https://amplitude.com/privacy) |
@@ -60,8 +60,7 @@ Chats you import contain messages written by other people. That content is handl
 ## 7. Keeping and deleting data
 
 - **On your device:** delete a person, use **Settings → Delete all data**, or delete the app. Your chats, reports, AI conversations and Memory go with it, including any iCloud backup you made.
-- **Our records:** we do not store your conversations, so the only record we hold is the anonymous usage count in section 3. It expires automatically after 45 days, and you can email us to have it removed sooner.
-- **Copies held by Anthropic:** the brief trust-and-safety retention described in section 2 expires automatically under Anthropic's own terms. It is not something we are able to delete on request.
+- **Our records:** we do not store your conversations. We hold an anonymous usage record and, if you have bought anything, a record of that purchase so we can honour it. Email us to request deletion.
 
 ## 8. Children
 
