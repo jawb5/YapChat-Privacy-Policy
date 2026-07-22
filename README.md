@@ -13,7 +13,7 @@ YapChat's analysis is performed by **Anthropic PBC** ("Anthropic"), the provider
 | **What is sent?** | The **text of the messages** in the chat you selected, the **timestamps** of those messages, and the **sender names exactly as they appear in your exported file**. Nothing else. |
 | **Who is it sent to?** | Anthropic PBC, via our own relay server (Cloudflare Workers). No other AI provider receives your data. |
 | **How is it collected?** | Only from a chat export or screenshots **you** actively import, and only when **you** trigger an AI feature (a report, an AI chat message, or building Memory). |
-| **When is permission asked?** | Before anything is sent. The app shows an in-app consent screen after your first import that names Anthropic and lists exactly what will be sent. **If you do not agree, no message data leaves your device and the imported chat is deleted.** You can withdraw consent at any time by deleting your data in Settings. |
+| **When is permission asked?** | Before anything is sent. The app shows an in-app consent screen after your first import that names Anthropic and lists exactly what will be sent. **If you do not agree, no message data leaves your device and the imported chat is deleted.** |
 | **What is it used for?** | Solely to generate the report, AI chat reply, or Memory dossier you asked for. |
 | **Is it used to train AI?** | **No.** Under Anthropic's commercial terms, data submitted through their API is not used to train their models. |
 | **Retention by Anthropic** | Anthropic may retain inputs and outputs for a limited period for trust-and-safety purposes under their commercial terms, after which they are deleted. |
@@ -63,7 +63,6 @@ Chats you import naturally include messages written by other people. That conten
 ## Data deletion
 
 - **On-device data:** delete a person from your roster, or use **Settings → Delete all data** (which also removes your iCloud backup), or delete the app — the imported chats, reports, AI conversations and Memory go with it.
-- **Withdrawing AI consent:** deleting all data in Settings also clears your consent, so the app will ask again before anything is sent next time.
 - **Server-side usage records:** these expire automatically after 45 days. To request earlier deletion, email us (address below) — include the "device ID" shown in the app's settings so we can find the anonymous record.
 
 ## Children
